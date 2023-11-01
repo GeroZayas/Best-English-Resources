@@ -8,6 +8,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* BOLD */
+
+b {
+  color: brown;
+
+}
+
 /* COLLAPSIBLE - TOGGLE - SECTIONS */
 summary {
   cursor: pointer;
