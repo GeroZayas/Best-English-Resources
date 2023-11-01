@@ -1,0 +1,125 @@
+    <!-- TEACHERS RESOURCES -->
+    <div id="teachers-resources-section">
+      <details>
+        <summary style="font-size: larger; background-color: beige">
+          👨‍🏫 Teachers Resources
+        </summary>
+        <ol>
+          <li>
+            <a
+              href="https://busyteacher.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Busy Teacher</a
+            >
+            <p>👍 This one is great for lesson plans and worksheets.</p>
+          </li>
+          <li>
+            <a
+              href="https://bogglesworldesl.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Lanternfish ESL Worksheets and Lesson Plans</a
+            >
+            <p>👌 Great for lesson plans.</p>
+          </li>
+          <li>
+            <a
+              href="https://www.learnenglishfeelgood.com/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LearnEnglishFeelGood.com</a
+            >
+          </li>
+        </ol>
+      </details>
+    </div>
+
+    <!-- SPEAKING -->
+    <div id="speaking-section">
+      <details>
+        <summary
+          style="font-size: larger; background-color: rgb(247, 247, 146)"
+        >
+          🗣️ Speaking
+        </summary>
+        <ol>
+          <li>
+            <a
+              href="https://teflpedia.com/Category:Teflpedia_conversation_questions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Teflpedia conversation questions by Topics</a
+            >
+            <p></p>
+          </li>
+          <li>
+            <a
+              href="https://englishstudyhere.com/category/speaking-general/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              English Study Here ➡️ Speaking – General</a
+            >
+            <p></p>
+          </li>
+          <li>
+            <a
+              href="https://englishstudyhere.com/category/ways-to-say/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              English Study Here ➡️ Ways to Say !</a
+            >
+            <p>🆒 Really cool one-image summaries of each vocabulary topic</p>
+          </li>
+
+          <li>
+            <a
+              href="http://iteslj.org/questions/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Conversation Questions for the ESL/EFL Classroom</a
+            >
+            <p>
+              🌐 Lots and Lots of Topics and a Myriad of <b>Questions</b> ⁉️
+            </p>
+          </li>
+          <li>
+            <a
+              href="https://eslgold.com/practice-speaking/conversation-topics/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ESL Gold Conversation Topics</a
+            >
+            <p></p>
+          </li>
+        </ol>
+      </details>
+    </div>
+
+    <!-- LISTENING -->
+    <div id="listening-section">
+      <details>
+        <summary
+          style="font-size: larger; background-color: rgb(135, 247, 159)"
+        >
+          👂 Listening
+        </summary>
+        <ol>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer">...</a>
+            <p></p>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer">...</a>
+            <p></p>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer">...</a>
+            <p></p>
+          </li>
+        </ol>
+      </details>
+    </div>
