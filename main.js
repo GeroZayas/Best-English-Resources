@@ -22,7 +22,7 @@ fetch("/data/teachers.csv")
       const ranking = document.createElement("p");
 
       a.href = cols[0];
-      a.textContent = cols[1];
+      a.innerHTML = "<b class='links'>" + cols[1] + "</b>";
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       p.textContent = cols[2];
@@ -50,7 +50,7 @@ fetch("/data/speaking.csv")
       const ranking = document.createElement("p");
 
       a.href = cols[0];
-      a.textContent = cols[1];
+      a.innerHTML = "<b class='links'>" + cols[1] + "</b>";
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       p.textContent = cols[2];
