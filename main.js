@@ -19,15 +19,18 @@ fetch("/data/teachers.csv")
       const li = document.createElement("li");
       const a = document.createElement("a");
       const p = document.createElement("p");
+      const ranking = document.createElement("p");
 
       a.href = cols[0];
       a.textContent = cols[1];
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       p.textContent = cols[2];
+      ranking.textContent = cols[3];
 
       li.appendChild(a);
       li.appendChild(p);
+      li.appendChild(ranking);
       olTeachers.appendChild(li);
     }
   });
@@ -44,15 +47,18 @@ fetch("/data/speaking.csv")
       const li = document.createElement("li");
       const a = document.createElement("a");
       const p = document.createElement("p");
+      const ranking = document.createElement("p");
 
       a.href = cols[0];
       a.textContent = cols[1];
       a.target = "_blank";
       a.rel = "noopener noreferrer";
       p.textContent = cols[2];
+      ranking.textContent = cols[3];
 
       li.appendChild(a);
       li.appendChild(p);
+      li.appendChild(ranking);
       olSpeaking.appendChild(li);
     }
   });
