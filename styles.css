@@ -1,0 +1,25 @@
+/* FONTS FOR THE WEBSITE */
+@font-face {
+  font-family: "Open Sans";
+  src: url("opensans-regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* COLLAPSIBLE - TOGGLE - SECTIONS */
+summary {
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+details[open] summary::before {
+  content: "➖";
+}
+
+details summary::before {
+  content: "➕";
+  margin-right: 0.9em;
+}
