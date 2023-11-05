@@ -7,6 +7,19 @@
 //   ol.appendChild(li);
 // }
 
+document.addEventListener("DOMContentLoaded", function() {
+  const collapseAllButton = document.getElementById("collapse-all-button");
+  const detailsContainer = document.getElementById("details-container");
+  const detailsElements = detailsContainer.getElementsByTagName("details");
+
+  collapseAllButton.addEventListener("click", function() {
+      for (const detailsElement of detailsElements) {
+          detailsElement.open = false;
+      }
+  });
+});
+
+
 // TEACHERS DATA
 const olTeachers = document.getElementById("teachers");
 
