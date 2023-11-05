@@ -7,19 +7,58 @@
 //   ol.appendChild(li);
 // }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const collapseAllButton = document.getElementById("collapse-all-button");
   const detailsContainer = document.getElementById("details-container");
   const detailsElements = detailsContainer.getElementsByTagName("details");
 
-  collapseAllButton.addEventListener("click", function() {
-      for (const detailsElement of detailsElements) {
-          detailsElement.open = false;
-      }
+  collapseAllButton.addEventListener("click", function () {
+    for (const detailsElement of detailsElements) {
+      detailsElement.open = false;
+    }
   });
 });
 
+// /////////////////////////////////////////////////////////////////////////
+// /////////////////////////////////////////////////////////////////////////
+// Show the BUTTON when the collapsibles are open if not hide it 
+// /////////////////////////////////////////////////////////////////////////
+// /////////////////////////////////////////////////////////////////////////
+document.addEventListener("DOMContentLoaded", function () {
+  const buttonContainer = document.getElementById("collapse-all-button");
+  const detailsElements = document.querySelectorAll("details");
 
+  // sourcery skip: avoid-function-declarations-in-blocks
+  function toggleCollapseButtonVisibility() {
+    const isAnyDetailsOpen = Array.from(detailsElements).some(
+      (detailsElement) => detailsElement.open
+    );
+
+    if (isAnyDetailsOpen) {
+      buttonContainer.classList.remove("hidden");
+    } else {
+      buttonContainer.classList.add("hidden");
+    }
+  }
+
+  buttonContainer.addEventListener("click", function () {
+    for (const detailsElement of detailsElements) {
+      detailsElement.open = false;
+    }
+  });
+
+  // Initially, check for visibility
+  toggleCollapseButtonVisibility();
+
+  // Listen for changes in details elements
+  detailsElements.forEach((detailsElement) => {
+    detailsElement.addEventListener("toggle", toggleCollapseButtonVisibility);
+  });
+});
+// //////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////
 // TEACHERS DATA
 const olTeachers = document.getElementById("teachers");
 
