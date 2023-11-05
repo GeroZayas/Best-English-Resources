@@ -68,7 +68,7 @@ fetch("/data/speaking.csv")
 
 // LISTENING DATA
 
-const olListening = document.getElementById("speaking");
+const olListening = document.getElementById("listening");
 
 fetch("/data/listening.csv")
   .then((response) => response.text())
