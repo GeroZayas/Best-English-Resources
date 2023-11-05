@@ -1,0 +1,1 @@
+MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo that in Excel / Libre Office)
