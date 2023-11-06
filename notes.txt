@@ -4,7 +4,7 @@ MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo 
 TEACHERS RESOURCES
 SPEAKING adding links Done ✅
 LISTENING adding links Done ✅
-READING adding links 
+READING adding links Done ✅
 WRITING adding links 
 PRONUNCIATION adding links 
 VOCAB adding links 
