@@ -3,10 +3,10 @@ MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo 
 
 TEACHERS RESOURCES
 SPEAKING adding links Done ✅
-LISTENING adding links Done ✅
+LISTENING adding links Done ✅ 
 READING adding links Done ✅
-WRITING adding links 
-PRONUNCIATION adding links 
+WRITING adding links Done ✅
+PRONUNCIATION adding links Done ✅
 VOCAB adding links 
 GRAMMAR adding links 
 FCE adding links 
@@ -14,7 +14,8 @@ CAE adding links
 
 ********************************************
 
-FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
+🔴 FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
+🔴 Put more resources on reading, listening, writing and others
 
 ********************************************
 

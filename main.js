@@ -207,3 +207,34 @@ fetch("/data/writing.csv")
       olWriting.appendChild(li);
     }
   });
+
+// WRITING DATA
+
+const olPronunciation = document.getElementById("pronunciation");
+
+fetch("/data/pronunciation.csv")
+  .then((response) => response.text())
+  .then((data) => {
+    const rows = data.split("\n");
+    const headers = rows[0].split(",");
+    for (let i = 1; i < rows.length; i++) {
+      const cols = rows[i].split(",");
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      const p = document.createElement("p");
+      const ranking = document.createElement("p");
+
+      a.href = cols[0];
+      a.innerHTML = "<b class='links'>" + cols[1] + "</b>";
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      p.textContent = cols[2];
+      ranking.textContent = cols[3];
+
+      li.appendChild(a);
+      li.appendChild(p);
+      li.appendChild(ranking);
+      olPronunciation.appendChild(li);
+    }
+  });
+s;
