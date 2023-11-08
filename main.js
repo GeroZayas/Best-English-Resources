@@ -208,7 +208,7 @@ fetch("/data/writing.csv")
     }
   });
 
-// WRITING DATA
+// PRONUNCIATION DATA
 
 const olPronunciation = document.getElementById("pronunciation");
 
