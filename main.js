@@ -237,9 +237,68 @@ fetch("/data/pronunciation.csv")
       olPronunciation.appendChild(li);
     }
   });
-s;
 
-// PRONUNCIATION DATA
+// Phrasal Verbs DATA
+
+const olPhrasalVerbs = document.getElementById("phrasal-verbs");
+
+fetch("/data/phrasal_verbs.csv")
+  .then((response) => response.text())
+  .then((data) => {
+    const rows = data.split("\n");
+    const headers = rows[0].split(",");
+    for (let i = 1; i < rows.length; i++) {
+      const cols = rows[i].split(",");
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      const p = document.createElement("p");
+      const ranking = document.createElement("p");
+
+      a.href = cols[0];
+      a.innerHTML = "<b class='links'>" + cols[1] + "</b>";
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      p.textContent = cols[2];
+      ranking.textContent = cols[3];
+
+      li.appendChild(a);
+      li.appendChild(p);
+      li.appendChild(ranking);
+      olPhrasalVerbs.appendChild(li);
+    }
+  });
+
+// Phrasal Verbs DATA
+
+const olCollocations = document.getElementById("collocations");
+
+fetch("/data/collocations.csv")
+  .then((response) => response.text())
+  .then((data) => {
+    const rows = data.split("\n");
+    const headers = rows[0].split(",");
+    for (let i = 1; i < rows.length; i++) {
+      const cols = rows[i].split(",");
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      const p = document.createElement("p");
+      const ranking = document.createElement("p");
+
+      a.href = cols[0];
+      a.innerHTML = "<b class='links'>" + cols[1] + "</b>";
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      p.textContent = cols[2];
+      ranking.textContent = cols[3];
+
+      li.appendChild(a);
+      li.appendChild(p);
+      li.appendChild(ranking);
+      olCollocations.appendChild(li);
+    }
+  });
+
+// VOCAB DATA
 
 const olVocab = document.getElementById("vocab");
 
@@ -268,4 +327,3 @@ fetch("/data/vocab.csv")
       olVocab.appendChild(li);
     }
   });
-s;

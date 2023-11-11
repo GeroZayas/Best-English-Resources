@@ -1,4 +1,7 @@
-MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo that in Excel / Libre Office)
+
+
+********************************************
+👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo that in Excel / Libre Office)
 ********************************************
 
 TEACHERS RESOURCES
@@ -19,7 +22,7 @@ CAE adding links
 
 ********************************************
 
-Add animation to the collapsibles 
+🟡 Add animation to the collapsibles 
 
 ********************************************
 

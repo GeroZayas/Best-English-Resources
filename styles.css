@@ -39,6 +39,15 @@ details summary::before {
   margin-right: 0.9em;
 }
 
+details[open].inside-summary summary::before {
+  content: "➖";
+}
+
+details.inside-summary summary::before {
+  content: "➕";
+  margin-right: 0.9em;
+}
+
 /* COLLAPSE ALL BUTTON */
 
 #collapse-all-button {
