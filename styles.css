@@ -24,6 +24,11 @@ b.links {
 }
 
 /* COLLAPSIBLE - TOGGLE - SECTIONS */
+
+ol {
+  padding-left: 70px;
+}
+
 summary {
   cursor: pointer;
   font-weight: 500;

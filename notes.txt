@@ -10,6 +10,8 @@ LISTENING adding links Done ✅
 READING adding links Done ✅
 WRITING adding links Done ✅
 PRONUNCIATION adding links Done ✅
+PHRASAL VERBS adding links 
+COLLOCATIONS adding links 
 VOCAB adding links 
 GRAMMAR adding links 
 FCE adding links 
@@ -23,6 +25,9 @@ CAE adding links
 ********************************************
 
 🟡 Add animation to the collapsibles 
+🟡 Add cool little animations if possible (just to make more interesting) Look for a JS library just for that
+🟡 Consider using TailwindCSS or Bootstrap, or similar, to BEAUTIFY the website
+
 
 ********************************************
 
