@@ -27,21 +27,38 @@ b.links {
 
 ol {
   padding-left: 70px;
+  animation: sweep 0.5s ease-in-out;
+
 }
 
 summary {
   cursor: pointer;
   font-weight: 500;
   margin-top: 10px;
+  
 }
 
 details[open] summary::before {
   content: "➖";
 }
 
+
+/* COOL ANIMATION, OLs SLIDE FROM THE LEFT */
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+
 details summary::before {
   content: "➕";
   margin-right: 0.9em;
+  
 }
 
 details[open].inside-summary summary::before {
@@ -49,6 +66,8 @@ details[open].inside-summary summary::before {
 }
 
 details.inside-summary summary::before {
+  animation: sweep 0.5s ease-in-out;
+
   content: "➕";
   margin-right: 0.9em;
 }
