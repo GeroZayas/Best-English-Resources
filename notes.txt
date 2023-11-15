@@ -20,18 +20,11 @@ CAE adding links
 ********************************************
 
 🔴 FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
-🔴 Put more resources on reading, listening, writing and others
+🔴 ADD more resources on reading, listening, writing and others
+🔴 Fix the width of details elements on phone screens, make it wider
 
 ********************************************
 
-🟡 Add animation to the collapsibles 
-🟡 Add cool little animations if possible (just to make more interesting) Look for a JS library just for that
-🟡 Consider using TailwindCSS or Bootstrap, or similar, to BEAUTIFY the website
-
-
-********************************************
-
-Problem: SOLVED! ✅
-CONTEXT: I have an html page wich has several <details> elements, and they each have multiple <ol> and <li> elements inside, so when the user opens one of the <details> there many listed elements displayed PROBLEM: It requieres the user to scroll down or up too much to go to the top to collapse the <details> element GOAL: Have a button that is all the time at the bottom right side of the screen when the user opens one of the <details> element so that the user can collapse everything and go to the top of the page at any given time
+🟡 Add Random Resource Option 
 
 ********************************************
