@@ -60,14 +60,22 @@ document.addEventListener("DOMContentLoaded", function () {
 // //////////////////////////////////////////////////////////////////////////
 // //////////////////////////////////////////////////////////////////////////
 
+// //////////////////////////////////////////////////////////////////////////
+// HERE WE ARE ADDING TAILWIND CLASSES TO EACH OL ELEMENT
+// //////////////////////////////////////////////////////////////////////////
+
 // Select all <ol> elements
 var orderedLists = document.querySelectorAll("ol");
 
 // Add a class to each <ol> element
 orderedLists.forEach(function (ol) {
-  ol.classList.add("list-decimal"); // Replace 'your-class-name' with your desired class name
-  ol.classList.add("pl-8"); // Replace 'your-class-name' with your desired class name
+  ol.classList.add("list-decimal");
+  ol.classList.add("pl-8");
+  ol.classList.add("pt-4");
 });
+// //////////////////////////////////////////////////////////////////////////
+// END OF ADDING TAILWIND CLASSES TO EACH OL ELEMENT
+// //////////////////////////////////////////////////////////////////////////
 
 // TEACHERS DATA
 const olTeachers = document.getElementById("teachers");
