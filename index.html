@@ -7,11 +7,17 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- HEADING CONTENTS -->
     <div id="heading-content" style="text-align: center">
-      <h1>🇺🇸 Best <b>English</b> Resources 🇬🇧</h1>
+      <h1 class="text-3xl font-bold text-blue-800" s>
+        🇺🇸 Best <b>English</b> Resources 🇬🇧
+      </h1>
       <div
         id="link-and-picture-gero-zayas"
         style="display: flex; justify-content: center; align-items: center"
@@ -29,25 +35,32 @@
           >By Gero Zayas</a
         >
       </div>
-      <h3>
+      <h3 class="text-2xl font-semibold text-blue-700">
         For <span style="color: rgb(2, 2, 95)"> English </span
         ><b>Teachers</b> 👨‍🏫 and <b>Students</b> 🧑‍🎓
       </h3>
-      <h5>
-        ✅ <b>Curated</b> collection of the <b>best</b> online resources for
-        <b> <span style="color: rgb(2, 2, 95)">ESL </span>Learning</b> and
-        <b>Teaching</b>.
-      </h5>
-      <p>
-        🎯 <b> Purpose </b> 👉 quick, effective and efficient access to the best
-        online resources so that you can learn and improve your level of English
-        in a <span style="color: rgb(143, 93, 0)">FUN</span>,
-        <span style="color: rgb(1, 76, 110)">FAST</span> and
-        <span style="color: rgb(110, 0, 112)">EFFECTIVE</span> way.
-      </p>
+      <div class="shadow-lg p-2 max-w-sm mx-auto my-10 bg-white rounded-lg">
+        <h5>
+          ✅ <b>Curated</b> collection of the <b>best</b> online resources for
+          <b> <span style="color: rgb(2, 2, 95)">ESL </span>Learning</b> and
+          <b>Teaching</b>.
+        </h5>
+      </div>
+      <div class="shadow-lg p-2 max-w-sm mx-auto my-10 bg-white rounded-lg">
+        <p>
+          🎯 <b> Purpose </b> 👉 quick, effective and efficient access to the
+          best online resources so that you can learn and improve your level of
+          English in a <span style="color: rgb(143, 93, 0)">FUN</span>,
+          <span style="color: rgb(1, 76, 110)">FAST</span> and
+          <span style="color: rgb(110, 0, 112)">EFFECTIVE</span> way.
+        </p>
+      </div>
     </div>
 
-    <div id="details-container">
+    <div
+      id="details-container"
+      class="shadow-lg p-2 max-w-2xl mx-auto my-10 bg-white rounded-lg"
+    >
       <!-- TEACHERS RESOURCES -->
       <div id="teachers-resources-section">
         <details>

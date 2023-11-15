@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 1rem 4rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,28 +26,29 @@ b.links {
 /* COLLAPSIBLE - TOGGLE - SECTIONS */
 
 ol {
-  padding-left: 70px;
+  padding-left: 1rem;
   animation: sweep 0.5s ease-in-out;
+}
 
+li {
 }
 
 summary {
   cursor: pointer;
   font-weight: 500;
-  margin-top: 10px;
-  
+  margin-top: 0.5rem;
+  padding-left: 1rem;
 }
 
 details[open] summary::before {
   content: "➖";
 }
 
-
 /* COOL ANIMATION, OLs SLIDE FROM THE LEFT */
 @keyframes sweep {
   0% {
     opacity: 0;
-    margin-left: -10px;
+    margin-left: -30px;
   }
   100% {
     opacity: 1;
@@ -58,7 +59,6 @@ details[open] summary::before {
 details summary::before {
   content: "➕";
   margin-right: 0.9em;
-  
 }
 
 details[open].inside-summary summary::before {
