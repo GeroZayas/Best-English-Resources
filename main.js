@@ -59,6 +59,15 @@ document.addEventListener("DOMContentLoaded", function () {
 // //////////////////////////////////////////////////////////////////////////
 // //////////////////////////////////////////////////////////////////////////
 // //////////////////////////////////////////////////////////////////////////
+
+// Select all <ol> elements
+var orderedLists = document.querySelectorAll("ol");
+
+// Add a class to each <ol> element
+orderedLists.forEach(function (ol) {
+  ol.classList.add("list-decimal"); // Replace 'your-class-name' with your desired class name
+});
+
 // TEACHERS DATA
 const olTeachers = document.getElementById("teachers");
 
