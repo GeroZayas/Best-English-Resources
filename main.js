@@ -66,6 +66,7 @@ var orderedLists = document.querySelectorAll("ol");
 // Add a class to each <ol> element
 orderedLists.forEach(function (ol) {
   ol.classList.add("list-decimal"); // Replace 'your-class-name' with your desired class name
+  ol.classList.add("pl-8"); // Replace 'your-class-name' with your desired class name
 });
 
 // TEACHERS DATA
