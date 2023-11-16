@@ -30,9 +30,22 @@ ol {
   animation: sweep 0.5s ease-in-out;
 }
 
+/* -------------------------------------------------------- */
+/* LISt ELEmENTS */
+
 li {
   margin-bottom: 1em;
+  font-size: 17px; /* Adjust this value as needed */
 }
+
+/* ON Smalles screens: */
+@media (max-width: 767px) {
+  li {
+    font-size: 14px; /* Smaller font size for phone screens */
+  }
+}
+
+/* ------------------------------------------------------ */
 
 summary {
   cursor: pointer;
@@ -97,7 +110,6 @@ details.inside-summary summary::before {
   background: linear-gradient(135deg, #0056b3, #003c80);
 }
 
-
 /* *********************** */
 /* *********************** */
 /* ************ THIS IS TO ANIMATE ELEMENTS - GROW ON HOVER A BIT*********** */
@@ -109,7 +121,6 @@ details.inside-summary summary::before {
 .grow-on-hover:hover {
   transform: scale(1.05);
 }
-
 
 /* ********************************************* */
 /* ********************************************* */

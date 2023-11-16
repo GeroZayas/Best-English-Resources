@@ -78,6 +78,13 @@ orderedLists.forEach(function (ol) {
 // END OF ADDING TAILWIND CLASSES TO EACH OL ELEMENT
 // //////////////////////////////////////////////////////////////////////////
 
+// ADD These tailwind classes to each summary to make RESPONSIVE
+// ///////////////////////////////////////////////////////
+document.querySelectorAll("summary").forEach(function (el) {
+  el.classList.add("text-base", "sm:text-lg", "md:text-xl");
+});
+// ///////////////////////////////////////////////////////
+
 // TEACHERS DATA
 const olTeachers = document.getElementById("teachers");
 
