@@ -22,9 +22,12 @@ CAE adding links
 🔴 FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
 🔴 ADD more resources on reading, listening, writing and others
 🔴 Fix the width of details elements on phone screens, make it wider
+🔴 Make the Collapse all button smaller on phone screens
 
 ********************************************
 
 🟡 Add Random Resource Option 
+🟡 Add a PayPal me option and or Buy me a Coffee option
+🟡 Add a contact or form for people to give me feedback and suggest new resources
 
 ********************************************
