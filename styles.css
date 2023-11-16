@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -31,6 +31,7 @@ ol {
 }
 
 li {
+  margin-bottom: 1em;
 }
 
 summary {
@@ -99,12 +100,18 @@ details.inside-summary summary::before {
 
 /* *********************** */
 /* *********************** */
-/* *********************** */
+/* ************ THIS IS TO ANIMATE ELEMENTS - GROW ON HOVER A BIT*********** */
 /* *********************** */
 .grow-on-hover {
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .grow-on-hover:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
+
+
+/* ********************************************* */
+/* ********************************************* */
+/* ********************************************* */
+/* ********************************************* */

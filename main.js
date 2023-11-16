@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // //////////////////////////////////////////////////////////////////////////
 
 // Select all <ol> elements
+// sourcery skip: avoid-using-var
 var orderedLists = document.querySelectorAll("ol");
 
 // Add a class to each <ol> element
