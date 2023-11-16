@@ -95,3 +95,16 @@ details.inside-summary summary::before {
 #collapse-all-button:hover {
   background: linear-gradient(135deg, #0056b3, #003c80);
 }
+
+
+/* *********************** */
+/* *********************** */
+/* *********************** */
+/* *********************** */
+.grow-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.1);
+}
