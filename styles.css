@@ -126,3 +126,8 @@ details.inside-summary summary::before {
 /* ********************************************* */
 /* ********************************************* */
 /* ********************************************* */
+
+/* Custom CSS to make the button smaller */
+.bmc-btn-container {
+  font-size: smaller;
+}
