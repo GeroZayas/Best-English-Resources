@@ -1,13 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
   const collapseAllButton = document.getElementById("collapse-all-button");
   const detailsContainer = document.getElementById("details-container");
-  const detailsElements = detailsContainer.getElementsByTagName("details");
 
-  collapseAllButton.addEventListener("click", function () {
-    for (const detailsElement of detailsElements) {
-      detailsElement.open = false;
-    }
-  });
+  if (collapseAllButton && detailsContainer) {
+    const detailsElements = detailsContainer.getElementsByTagName("details");
+
+    collapseAllButton.addEventListener("click", function () {
+      for (const detailsElement of detailsElements) {
+        detailsElement.open = false;
+      }
+    });
+  } else {
+    // Reload the page if required elements are not found
+    window.location.reload();
+  }
 });
 
 // __________________________________________________________
