@@ -88,18 +88,18 @@ function fetchAndDisplayCsvData(csvFilePath, targetElementId) {
 
 document.addEventListener("DOMContentLoaded", function () {
   // Fetch and display data for each category
-  fetchAndDisplayCsvData("/data/teachers.csv", "teachers");
-  fetchAndDisplayCsvData("/data/speaking.csv", "speaking");
-  fetchAndDisplayCsvData("/data/listening.csv", "listening");
-  fetchAndDisplayCsvData("/data/reading.csv", "reading");
-  fetchAndDisplayCsvData("/data/writing.csv", "writing");
-  fetchAndDisplayCsvData("/data/pronunciation.csv", "pronunciation");
-  fetchAndDisplayCsvData("/data/phrasal_verbs.csv", "phrasal-verbs");
-  fetchAndDisplayCsvData("/data/collocations.csv", "collocations");
-  fetchAndDisplayCsvData("/data/vocab.csv", "vocab");
-  fetchAndDisplayCsvData("/data/grammar.csv", "grammar");
-  fetchAndDisplayCsvData("/data/fce.csv", "fce");
-  fetchAndDisplayCsvData("/data/cae.csv", "cae");
+  fetchAndDisplayCsvData("./data/teachers.csv", "teachers");
+  fetchAndDisplayCsvData("./data/speaking.csv", "speaking");
+  fetchAndDisplayCsvData("./data/listening.csv", "listening");
+  fetchAndDisplayCsvData("./data/reading.csv", "reading");
+  fetchAndDisplayCsvData("./data/writing.csv", "writing");
+  fetchAndDisplayCsvData("./data/pronunciation.csv", "pronunciation");
+  fetchAndDisplayCsvData("./data/phrasal_verbs.csv", "phrasal-verbs");
+  fetchAndDisplayCsvData("./data/collocations.csv", "collocations");
+  fetchAndDisplayCsvData("./data/vocab.csv", "vocab");
+  fetchAndDisplayCsvData("./data/grammar.csv", "grammar");
+  fetchAndDisplayCsvData("./data/fce.csv", "fce");
+  fetchAndDisplayCsvData("./data/cae.csv", "cae");
 
   // // Add Tailwind classes to elements
   // addClassesToSelector("ol", ["list-decimal", "pl-8", "pt-4"]);
