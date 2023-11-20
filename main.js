@@ -51,11 +51,11 @@ document.addEventListener("DOMContentLoaded", function () {
 // HERE WE ARE ADDING TAILWIND CLASSES TO EACH OL ELEMENT
 // __________________________________________________________
 
-// function addClassesToSelector(selector, classes) {
-//   document.querySelectorAll(selector).forEach((element) => {
-//     classes.forEach((cls) => element.classList.add(cls));
-//   });
-// }
+function addClassesToSelector(selector, classes) {
+  document.querySelectorAll(selector).forEach((element) => {
+    classes.forEach((cls) => element.classList.add(cls));
+  });
+}
 
 function fetchAndDisplayCsvData(csvFilePath, targetElementId) {
   fetch(csvFilePath)
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndDisplayCsvData("./data/fce.csv", "fce");
   fetchAndDisplayCsvData("./data/cae.csv", "cae");
 
-  // // Add Tailwind classes to elements
-  // addClassesToSelector("ol", ["list-decimal", "pl-8", "pt-4"]);
-  // addClassesToSelector("summary", ["text-base", "sm:text-lg", "md:text-xl"]);
+  // Add Tailwind classes to elements
+  addClassesToSelector("ol", ["list-decimal", "pl-8", "pt-4"]);
+  addClassesToSelector("summary", ["text-base", "sm:text-lg", "md:text-xl"]);
 });
