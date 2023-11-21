@@ -26,6 +26,9 @@ CAE adding links Done ✅
 ********************************************
 
 🟡 Add Random Resource Option 
+🟡 Add a subdivision to TEACHERS for Dictionaries
+🟡 Add a subdivision to TEACHERS for Young Learners
+🟡 Add a subdivision to TEACHERS for TOP Resources
 ********************************************
 
 👀 OJO: TAILWINDCSS:

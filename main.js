@@ -106,6 +106,9 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndDisplayCsvData("./data/grammar.csv", "grammar");
   fetchAndDisplayCsvData("./data/fce.csv", "fce");
   fetchAndDisplayCsvData("./data/cae.csv", "cae");
+  fetchAndDisplayCsvData("./data/dictionaries.csv", "dictionaries");
+  fetchAndDisplayCsvData("./data/top.csv", "top-resources");
+  fetchAndDisplayCsvData("./data/young_learners.csv", "young-learners");
 
   // Add Tailwind classes to elements
   addClassesToSelector("ol", ["list-decimal", "pl-8", "pt-4"]);
