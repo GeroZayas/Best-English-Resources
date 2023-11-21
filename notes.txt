@@ -21,14 +21,12 @@ CAE adding links Done ✅
 ********************************************
 
 🔴 FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
+🔴 FINISH Adding and Moving links from Teachers resources to the New Subdivisions
 🔴 ADD more resources on reading, listening, writing and others
 
 ********************************************
 
 🟡 Add Random Resource Option 
-🟡 Add a subdivision to TEACHERS for Dictionaries
-🟡 Add a subdivision to TEACHERS for Young Learners
-🟡 Add a subdivision to TEACHERS for TOP Resources
 ********************************************
 
 👀 OJO: TAILWINDCSS:
