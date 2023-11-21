@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "build-css": "NODE_ENV=production tailwindcss build styles.css -o output.css"
+  }
+}
