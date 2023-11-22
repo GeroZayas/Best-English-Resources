@@ -793,7 +793,7 @@ ol {
 
 li {
   margin-bottom: 1em;
-  font-size: 15px;
+  font-size: 16px;
   /* Adjust this value as needed */
 }
 
@@ -801,7 +801,7 @@ li {
 
 @media (max-width: 767px) {
   li {
-    font-size: 12px;
+    font-size: 14px;
     /* Smaller font size for phone screens */
   }
 }
@@ -836,10 +836,12 @@ details[open] summary::before {
 details summary::before {
   content: "➕";
   margin-right: 0.9em;
+  padding-left: 0.5rem;
 }
 
 details[open].inside-summary summary::before {
   content: "➖";
+  padding-left: 0.5rem;
 }
 
 details.inside-summary summary::before {

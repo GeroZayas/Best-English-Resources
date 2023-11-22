@@ -1,11 +1,14 @@
 
 
+💡 IDEA AUTOMATION -> Write a PYTHON SCRIPT that a) orders the csv files by stars ranking and b) makes sure there is no empty line at the end of the csv
+
 ********************************************
-👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (youdo that in Excel / Libre Office)
+👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (you do that in Excel / Libre Office)
 👉 REMEMBER MERGING the branches with Main
 ********************************************
 
-TEACHERS RESOURCES 🔴
+TEACHERS RESOURCES 🔴 👉 revise teachers again and mover resources to fitter categories if considered so
+
 SPEAKING adding links Done ✅
 LISTENING adding links Done ✅ 
 READING adding links Done ✅
@@ -29,5 +32,5 @@ CAE adding links Done ✅
 🟡 Add Random Resource Option 
 ********************************************
 
-👀 OJO: TAILWINDCSS:
+👀 OJO: TAILWINDCSS: ⬅️ ⬅️ ⬅️ ⬅️ ⬅️ ⬅️ ⬅️ ⬅️ ⬅️ 
 Developing Your Site: When making changes to your CSS, you will need to run the build script (npm run build-css) each time to process the changes.
