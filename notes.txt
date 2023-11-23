@@ -1,10 +1,7 @@
 ********************************************
-👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (you do that in Excel / Libre Office)
+👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars
 👉 REMEMBER MERGING the branches with Main
 ********************************************
-
-
-👉 revise teachers again and mover resources to fitter categories if considered so
 
 TEACHERS RESOURCES adding links Done ✅ 
 SPEAKING adding links Done ✅
@@ -20,8 +17,6 @@ FCE adding links Done ✅
 CAE adding links Done ✅
 
 ********************************************
-
-🔴 FINISH Adding and Moving links from Teachers resources to the New Subdivisions
 
 ********************************************
 
