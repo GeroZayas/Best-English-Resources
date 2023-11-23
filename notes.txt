@@ -1,14 +1,12 @@
-
-
-💡 IDEA AUTOMATION -> Write a PYTHON SCRIPT that a) orders the csv files by stars ranking and b) makes sure there is no empty line at the end of the csv
-
 ********************************************
 👉 MAKE SURE ALL THE LISTS CSV are ordered in desceding mode based on stars (you do that in Excel / Libre Office)
 👉 REMEMBER MERGING the branches with Main
 ********************************************
 
-TEACHERS RESOURCES 🔴 👉 revise teachers again and mover resources to fitter categories if considered so
 
+👉 revise teachers again and mover resources to fitter categories if considered so
+
+TEACHERS RESOURCES adding links Done ✅ 
 SPEAKING adding links Done ✅
 LISTENING adding links Done ✅ 
 READING adding links Done ✅
@@ -23,9 +21,7 @@ CAE adding links Done ✅
 
 ********************************************
 
-🔴 FINISH Adding the teachers resources (nov 5th 2023, 10:57am)
 🔴 FINISH Adding and Moving links from Teachers resources to the New Subdivisions
-🔴 ADD more resources on reading, listening, writing and others
 
 ********************************************
 
